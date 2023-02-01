@@ -35,8 +35,21 @@
 <main>
     <div class="event">
         <img class="event-banner" src="#" alt="Event banner">
-        <h2>Event name</h2>
-        <p>Event description</p>
+        <h2 class="text-align">Announcing Our Annual Bike-Meetup Event!</h2>
+        <p class="text-align">Attention all Motorcycle Enthusiasts! WEB-MOTO is proud to present this years annual Bike-Meetup. Due to the success and popularity of last years event WEB-MOTO has decided to turn this into an annual event! For this years event we will be heading to Central Ukraine to Taras Hill located 5km south of the city of Kaniv situated in Cherkasy Oblast and unlike last year this will be a sponsored event! Many motorcycle dealers from around Ukraine have contacted us in regards to our meetup last year and in order to help their businesses and ours we have decided to work together with some of them in creating this years event. This year will be different as we will be offering free bike rides from a wide range of brands. For anyone interested in purchasing a bike but not sure on the decision this will be the perfect opportunity for you to test it out before you buy. We look forward to welcoming you all this summer!</p>
+        <h3 class="text-align">Subscribe to Our Newsletter to stay up-to-date on Event Info</h3>
+        <form action="action_page.php" method="post" id="newsletter-form">
+        <div id="newsletter" class="text-align">
+            <input type="text" placeholder="Name" name="name" required>
+            <input type="text" placeholder="Email" name="mail" required>
+            <label>
+                <input type="checkbox" checked="checked" name="subscribe"> Event Newsletter
+            </label>
+        </div>
+        <div id="submit" class="text-align">
+            <input type="submit" value="Subscribe">
+        </div>
+        </form>
         <div id="gallery-wrapper">
             Gallery goes here
         </div>
