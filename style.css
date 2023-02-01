@@ -824,6 +824,17 @@ input[type=text], input[type=password] {
     padding: 2rem;
 }
 
+.event h2 {
+    font-size: 2rem;
+    margin: 1.5rem;
+}
+.event h3 {
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+.event p {
+    margin: 0.5rem;
+}
 .event-banner {
     display: block;
     height: 480px;
