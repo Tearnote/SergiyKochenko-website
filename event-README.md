@@ -18,3 +18,34 @@ To plan for this we first sat down as a group and using the AGILE Software metho
 - As a potential user, I would like to see photos of previous years events so that I can visualise what takes place at this event.
 
 ### **Features**
+
+- Event Newsletter: Added an event newsletter so that users can signup for an email newsletter to keep up-to-date on event info
+
+![Event Newsletter](assets/readme-images/event-newsletter.PNG)
+
+- Event Gallery: Added an event gallery to showcase too users the previous years event
+
+![Event Gallery](assets/readme-images/event-gallery.PNG)
+
+- Event Location Google Maps: Added a Google Maps display to show users the area the next years event will take place at.
+
+![Flowchart for Game](assets/readme-images/event-google-maps.PNG)
+
+---
+
+## Technologies Used:
+
+- HTML5
+- CSS3
+
+## Credits:
+
+Event Page Created as apart of a Hackathon
+
+Page Creators:
+
+- Zaur Time
+- Hubert Maraszek
+- Calum Griffin
+- Kristina Orlichenko
+- Sergiy Kochenko
