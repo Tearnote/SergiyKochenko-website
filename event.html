@@ -26,8 +26,10 @@
                 <li><a href="gallery.html"><h3>Gallery</h3></a></li>
                 <li><a href="about.html"><h3>About Us</h3></a></li>
                 <li><a href="index.html#schedule"><h3>Contact</h3></a></li>
-                <li><a href="form.html"><h3 style="color: red">SignUp</h3></a></li>
-                <li><a href="event.html" class='active'><h3 style="color: darkorange">Event</h3></a></li>
+                <li><a href="form.html"><h3 style="color: red">SignUp</h3></a>
+                </li>
+                <li><a href="event.html" class='active'><h3
+                        style="color: darkorange">Event</h3></a></li>
             </ul>
         </nav>
     </div>
@@ -36,109 +38,137 @@
     <div class="event">
         <img class="event-banner" src="#" alt="Event banner">
         <h2 class="text-align">Announcing Our Annual Bike-Meetup Event!</h2>
-        <p class="text-align">Attention all Motorcycle Enthusiasts! WEB-MOTO is proud to present this years annual Bike-Meetup. Due to the success and popularity of last years event WEB-MOTO has decided to turn this into an annual event! For this years event we will be heading to Central Ukraine to Taras Hill located 5km south of the city of Kaniv situated in Cherkasy Oblast and unlike last year this will be a sponsored event! Many motorcycle dealers from around Ukraine have contacted us in regards to our meetup last year and in order to help their businesses and ours we have decided to work together with some of them in creating this years event. This year will be different as we will be offering free bike rides from a wide range of brands. For anyone interested in purchasing a bike but not sure on the decision this will be the perfect opportunity for you to test it out before you buy. We look forward to welcoming you all this summer!</p>
-        <h3 class="text-align">Subscribe to Our Newsletter to stay up-to-date on Event Info</h3>
-        <form action="action_page.php" method="post" id="newsletter-form">
-        <div id="newsletter" class="text-align">
-            <input type="text" placeholder="Name" name="name" required>
-            <input type="text" placeholder="Email" name="mail" required>
-            <label>
-                <input type="checkbox" checked="checked" name="subscribe"> Event Newsletter
-            </label>
+        <p class="text-align">Attention all Motorcycle Enthusiasts! WEB-MOTO is
+            proud to present this years annual Bike-Meetup. Due to the success
+            and popularity of last years event WEB-MOTO has decided to turn this
+            into an annual event! For this years event we will be heading to
+            Central Ukraine to Taras Hill located 5km south of the city of Kaniv
+            situated in Cherkasy Oblast and unlike last year this will be a
+            sponsored event! Many motorcycle dealers from around Ukraine have
+            contacted us in regards to our meetup last year and in order to help
+            their businesses and ours we have decided to work together with some
+            of them in creating this years event. This year will be different as
+            we will be offering free bike rides from a wide range of brands. For
+            anyone interested in purchasing a bike but not sure on the decision
+            this will be the perfect opportunity for you to test it out before
+            you buy. We look forward to welcoming you all this summer!</p>
+        <div class="newsletter">
+            <h3 class="text-align">Subscribe to Our Newsletter to stay
+                up-to-date on Event Info</h3>
+            <form action="action_page.php" method="post" id="newsletter-form">
+                <div id="newsletter" class="text-align">
+                    <input type="text" placeholder="Name" name="name" required>
+                    <input type="text" placeholder="Email" name="mail" required>
+                    <label>
+                        <input type="checkbox" checked="checked"
+                               name="subscribe"> Event Newsletter
+                    </label>
+                </div>
+                <div id="submit" class="text-align">
+                    <input type="submit" value="Subscribe">
+                </div>
+            </form>
         </div>
-        <div id="submit" class="text-align">
-            <input type="submit" value="Subscribe">
-        </div>
-        </form>
-            <div id="gallery-wrapper">You can take the motorcycle for a free test drive.
-             A selection of motorcycles can be found in the gallery or visit us at the location and choose a bike.
-              Don't forget to bring your driver's license with you!
-              <br>
+        <div id="gallery-wrapper">You can take the motorcycle for a free test
+            drive.
+            A selection of motorcycles can be found in the gallery or visit us
+            at the location and choose a bike.
+            Don't forget to bring your driver's license with you!
+            <br>
             Gallery:
             <div>
                 <div id="slider_bl">
-                  <div class="wrapper">
-                    <input checked="" type="radio" name="slider" id="slide1">
-                    <input type="radio" name="slider" id="slide2">
-                    <input type="radio" name="slider" id="slide3">
-                    <input type="radio" name="slider" id="slide4">
-                  <input type="radio" name="slider" id="slide5">
-                    <div class="slider-wrapper">
-                      <div class="inner">
-                        <article>
-                          <div class="info top-left">
-                            <h3>Slide 1</h3></div>
-                          <img src="bike_images/DSC_4905.JPG" alt="DSC_4905">
-                        </article>
-                        <article>
-                          <div class="info bottom-right">
-                            <h3>Slide 2</h3></div>
-                          <img src="bike_images/DSC_6352.JPG" alt="DSC_6352">
-                        </article>
-                        <article>
-                          <div class="info bottom-left">
-                            <h3>Slide 3</h3></div>
-                          <img src="bike_images/DSC_6374.JPG" alt="DSC_6374">
-                        </article>
-                        <article>
-                          <div class="info top-right">
-                            <h3>Slide 4</h3></div>
-                          <img src="bike_images/DSC_4408.JPG" alt="DSC_4408">
-                        </article>
-                      <article>
-                          <div class="info top-right">
-                            <h3>Slide 5</h3></div>
-                          <img src="bike_images/DSC_6267.JPG" alt="DSC_6267">
-                        </article>
-                      </div>
+                    <div class="wrapper">
+                        <input checked="" type="radio" name="slider"
+                               id="slide1">
+                        <input type="radio" name="slider" id="slide2">
+                        <input type="radio" name="slider" id="slide3">
+                        <input type="radio" name="slider" id="slide4">
+                        <input type="radio" name="slider" id="slide5">
+                        <div class="slider-wrapper">
+                            <div class="inner">
+                                <article>
+                                    <div class="info top-left">
+                                        <h3>Slide 1</h3></div>
+                                    <img src="bike_images/DSC_4905.JPG"
+                                         alt="DSC_4905">
+                                </article>
+                                <article>
+                                    <div class="info bottom-right">
+                                        <h3>Slide 2</h3></div>
+                                    <img src="bike_images/DSC_6352.JPG"
+                                         alt="DSC_6352">
+                                </article>
+                                <article>
+                                    <div class="info bottom-left">
+                                        <h3>Slide 3</h3></div>
+                                    <img src="bike_images/DSC_6374.JPG"
+                                         alt="DSC_6374">
+                                </article>
+                                <article>
+                                    <div class="info top-right">
+                                        <h3>Slide 4</h3></div>
+                                    <img src="bike_images/DSC_4408.JPG"
+                                         alt="DSC_4408">
+                                </article>
+                                <article>
+                                    <div class="info top-right">
+                                        <h3>Slide 5</h3></div>
+                                    <img src="bike_images/DSC_6267.JPG"
+                                         alt="DSC_6267">
+                                </article>
+                            </div>
+                        </div>
+                        <div class="slider-prev-next-control">
+                            <label for="slide1"></label>
+                            <label for="slide2"></label>
+                            <label for="slide3"></label>
+                            <label for="slide4"></label>
+                            <label for="slide5"></label>
+                        </div>
+                        <div class="slider-dot-control">
+                            <label for="slide1"></label>
+                            <label for="slide2"></label>
+                            <label for="slide3"></label>
+                            <label for="slide4"></label>
+                            <label for="slide5"></label>
+                        </div>
                     </div>
-                    <div class="slider-prev-next-control">
-                      <label for="slide1"></label>
-                      <label for="slide2"></label>
-                      <label for="slide3"></label>
-                      <label for="slide4"></label>
-                    <label for="slide5"></label>
-                    </div>
-                    <div class="slider-dot-control">
-                      <label for="slide1"></label>
-                      <label for="slide2"></label>
-                      <label for="slide3"></label>
-                      <label for="slide4"></label>
-                    <label for="slide5"></label>
-                    </div>
-                  </div>
-              </div>
+                </div>
+            </div>
+            <div id="map-wrapper">
+                Map goes here
+            </div>
+            <div id="contact">
+                Contact details here (common footer already added)
+            </div>
         </div>
-        <div id="map-wrapper">
-            Map goes here
+        <div class="photo" id="photo">
+            <!-- add images -->
+            <p><strong>Enjoy the atmosphere of last year </strong></p><br>
         </div>
-        <div id="contact">
-            Contact details here (common footer already added)
+        <div id="photo">
+            <img src="bike_images/1.jpg" alt="photo1">
+            <img src="bike_images/2.jpg" alt="photo2">
+            <img src="bike_images/3.png" alt="photo3">
+            <img src="bike_images/4.jpg" alt="photo4">
+            <img src="bike_images/5.jpg" alt="photo5">
+            <img src="bike_images/6.jpg" alt="photo6">
+            <img src="bike_images/7.jpg" alt="photo7">
+            <img src="bike_images/8.jpg" alt="photo8">
         </div>
     </div>
-            <div class="photo" id="photo">
-                <!-- add images -->
-                    <p><strong>Enjoy the atmosphere of last year </strong></p><br>
-                 </div> 
-                 <div id="photo">
-                      <img src="bike_images/1.jpg" alt="photo1">
-                      <img src="bike_images/2.jpg" alt="photo2">
-                      <img src="bike_images/3.png" alt="photo3">
-                      <img src="bike_images/4.jpg" alt="photo4">
-                      <img src="bike_images/5.jpg" alt="photo5">
-                      <img src="bike_images/6.jpg" alt="photo6">
-                      <img src="bike_images/7.jpg" alt="photo7">
-                      <img src="bike_images/8.jpg" alt="photo8">
-                 </div>
-        </div>
-        
-        <div id="contact">
-            Contact details here (common footer already added)
-        </div>
-        <!-- Map Google map --> 
-        <p>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2578.8684226351047!2d31.51024121523637!3d49.73210174674415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d6b2041fed7225%3A0x7a089d3043e82667!2sTarasova%20Hora!5e0!3m2!1sen!2sie!4v1675256637664!5m2!1sen!2sie" width="100%" height="445" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </p>
+
+    <div id="contact">
+        Contact details here (common footer already added)
+    </div>
+    <!-- Map Google map -->
+    <p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2578.8684226351047!2d31.51024121523637!3d49.73210174674415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d6b2041fed7225%3A0x7a089d3043e82667!2sTarasova%20Hora!5e0!3m2!1sen!2sie!4v1675256637664!5m2!1sen!2sie"
+                width="100%" height="445" style="border:0;" allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </p>
     </div>
 </main>
 <footer class="footer">

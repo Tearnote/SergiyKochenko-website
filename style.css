@@ -842,6 +842,9 @@ input[type=text], input[type=password] {
     width: 100%;
     background: chocolate; /* If the image doesn't load */
 }
+.newsletter {
+    padding: 1rem 0;
+}
 
 @media (max-width: 720px) {
     main {
