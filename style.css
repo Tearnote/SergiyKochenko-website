@@ -330,7 +330,7 @@ footer .wave {
     left: 0;
     width: 100%;
     height: 155px;
-    background: center 100% / cover no-repeat url('https://i.ibb.co/4ZJ5Q0n/pngwing-com-2.png');
+    background: center 100% / cover no-repeat url('assets/images/vawes.png');
     background-size: 100% 170px; /*ширина и высота волны*/
 }
 
@@ -796,6 +796,7 @@ main {
     width: 100%;
     height: 100%;
     margin-top: 64px;
+    margin-bottom: 72px;
     padding: 2rem;
 }
 
